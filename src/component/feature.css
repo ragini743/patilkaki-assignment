@@ -1,0 +1,34 @@
+.problem-target {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+ 
+  
+  .tab-button {
+    padding: 10px 20px;
+   font-weight: bold;
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+   
+  }
+  
+  .tab-button:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .tab-content h3 {
+    margin-top: 0;
+  }
+  

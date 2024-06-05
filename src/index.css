@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-gradient {
+  background: linear-gradient(to right, #e673d1,rgb(153, 135, 243), #e86aab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.border-gradient {
+  position: relative;
+  padding: 2px;
+}
+
+.border-gradient::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  margin: -2px;
+  border-radius: inherit; 
+  background: linear-gradient(to right, #e673d1,rgb(153, 135, 243), #e86aab);
+}
+
+
+
+  .reviews, .problem-target {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+ .key-metrics h2, .reviews h2, .problem-target h2, .cta h2 {
+  margin-top: 0;
+}
+
+.metrics-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-content {
+  display: none;
+}
+
+footer,.cta {
+  background-color: #1c1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+@keyframes gradientBackground {
+  0% {
+    background: linear-gradient(120deg, #6e32cd, #cbee4a);
+  }
+  33% {
+    background: linear-gradient(120deg, #2193b0, #6dd5ed);
+  }
+  66% {
+    background: linear-gradient(120deg, #db366a, #753a88);
+  }
+  100% {
+    background: linear-gradient(120deg, #2eba0f, #f535ab);
+  }
+}
+
+.animated-gradient {
+  animation: gradientBackground  12s infinite; /* Change 6s to the duration you want */
+  background-size: 400% 400%;
+}
+
