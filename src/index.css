@@ -38,6 +38,9 @@ code {
   background: linear-gradient(to right, #e673d1,rgb(153, 135, 243), #e86aab);
 }
 
+#tab{
+  color: white;
+}
 
 
   .reviews, .problem-target {
@@ -48,11 +51,6 @@ code {
 
  .key-metrics h2, .reviews h2, .problem-target h2, .cta h2 {
   margin-top: 0;
-}
-
-.metrics-container {
-  display: flex;
-  justify-content: space-around;
 }
 
 

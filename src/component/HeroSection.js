@@ -18,7 +18,7 @@ const HeroSection = () => {
         </p>
         </div>
       
-        <div className="w-[50%] md:w-[30%] mb-8">
+        <div className=" md:w-[30%] mb-8">
           <img src="./growth-image3.png" alt="" className="w-[100%] "></img>
         </div>
       </div>

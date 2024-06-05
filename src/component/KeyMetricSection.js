@@ -4,9 +4,9 @@ const KeyMetricSection = () => {
   return (
     <div>
       <section class="my-16 md:px-10">
-        <h2 className="font-bold text-2xl md:text-4xl my-16">Four key questions answered by Crest</h2>
-        <div class="metrics-container my-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
-          <div class="bg-gray-200 py-10 px-8 rounded-[3rem]">
+        <h2 className="font-bold text-2xl md:text-4xl my-16 ml-8">Four key questions answered by Crest</h2>
+        <div class=" my-16 grid mx-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12">
+          <div class="bg-gray-200 py-10 px-8  rounded-[2rem]">
             <div className="w-[25%]">
             <img src="icon.png" alt="Metric Icon"></img>
             </div>
@@ -16,7 +16,7 @@ const KeyMetricSection = () => {
 
             <p>Get accurate demand and days to stock out. Automate purchase planning so you can always have what you need for your next sales cycle.</p>
           </div>
-          <div class="bg-gray-200 py-10 px-8 rounded-[3rem]">
+          <div class="bg-gray-200 py-10 px-8 rounded-[2rem] ">
             <div className="w-[25%]">
             <img src="icon.png" alt="Metric Icon"></img>
             </div>
@@ -26,7 +26,7 @@ const KeyMetricSection = () => {
 
             <p>Have up-to-date inventory, storage, sales velocity, and demand. Get timely order suggestions so you're never left guessing.</p>
           </div>
-          <div class="bg-gray-200 py-10 px-8 rounded-[3rem]">
+          <div class="bg-gray-200 py-10 px-8 rounded-[2rem] ">
             <div className="w-[25%]">
             <img src="icon.png" alt="Metric Icon"></img>
             </div>
@@ -36,7 +36,7 @@ const KeyMetricSection = () => {
 
             <p>Get inventory requirements for every node, for every SKU. So you avoid out-of-stock situations, even during demand spikes.</p>
           </div>
-          <div class="bg-gray-200 py-10 px-8 rounded-[3rem]">
+          <div class="bg-gray-200 py-10 px-8 rounded-[2rem] ">
             <div  className="w-[25%]">
             <img src="icon.png" alt="Metric Icon"></img>
             </div>
